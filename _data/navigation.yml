@@ -13,8 +13,8 @@ main:
     url: /teaching/    
 
   - title: "Publications"
-  #url: /publications/
-   url: https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=ravenda+federico&btnG=
+   url: /publications/
+   #url: https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=ravenda+federico&btnG=
     
  # - title: "Portfolio"
   #  url: /portfolio/
