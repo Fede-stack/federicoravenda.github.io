@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-zero-shot-clarification
 excerpt: 'Research on predicting clarification needs using zero-shot approaches.'
-date: 2025
+date: 2025-04-06
 venue: 'European Conference of Information Retrieval, ECIR 2025'
 citation: 'Lu, L., Meng, C., Ravenda, F., Aliannejadi, M., & Crestani, F. (2025). "Zero-shot and efficient clarification need prediction." <i>European Conference of Information Retrieval, ECIR 2025</i>.'
 ---
