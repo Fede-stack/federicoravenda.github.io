@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-covid-forecast
 excerpt: 'Development of neural network models for COVID-19 prediction.'
-date: 2024
+date: 2024-03-21
 venue: 'International Journal of Data Science and Analytics'
 citation: 'Ravenda, F., Cesarini, M., Peluso, S., & Mira, A. (2024). "A probabilistic spatio-temporal neural network to forecast covid-19 counts." <i>International Journal of Data Science and Analytics</i>, pages 1-8.'
 ---
