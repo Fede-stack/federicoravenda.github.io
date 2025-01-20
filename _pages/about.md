@@ -14,13 +14,13 @@ During my PhD, I have worked on classification systems for the automatic screeni
 
 ## 🧑‍💻 Research Interests
 
-**Behavioral Health Monitoring**: Tailoring AI systems grounded in psychological principles  for the automatic screening of social media users, identifying behavioral disorders through digital footprints.
+**NLP 4 Mental Health**: Tailoring AI systems grounded in psychological principles  for the automatic screening of social media users, identifying behavioral disorders through digital footprints.
 
 **Interpretability in NLP**: Developing interpretable models to enhance understanding in clinical NLP applications.
 
 **Conversational AI**:  Research on retrieval-augmented generation techniques and conversational systems, exploring methods to create more context-aware and naturally flowing users interactions.
 
-## Publications
+I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: https://github.com/Fede-stack/NLP-4-Mental-Health. And if you'd like to discuss any NLP-related topics, feel free to contact me at: *federico.ravenda [at] usi.ch* 
 
 # Publications
 
@@ -43,13 +43,13 @@ Ravenda, F., Bahrainian, S.A., Kando, N., Mira, A., Raballo, A., & Crestani, F.
 Lu, L., Meng, C., Ravenda, F., Aliannejadi, M., & Crestani, F.  
 *European Conference of Information Retrieval, ECIR 2025*, 2025
 
-* **A probabilistic spatio-temporal neural network to forecast covid-19 counts**  
-Ravenda, F., Cesarini, M., Peluso, S., & Mira, A.  
-*International Journal of Data Science and Analytics*, pages 1-8, 2024
-
 * **A self-supervised seed-driven approach to topic modelling and clustering**  
 Ravenda, F., Bahrainian, S.A., Raballo, A., Mira, A., & Crestani, F.  
 *Journal of Intelligent Information Systems*, pages 1-21, 2024
+
+* **A probabilistic spatio-temporal neural network to forecast covid-19 counts**  
+Ravenda, F., Cesarini, M., Peluso, S., & Mira, A.  
+*International Journal of Data Science and Analytics*, pages 1-8, 2024
 
 * **Opinionated texts in social media: A proposal for evaluative judgement methodology**  
 Bączkowska, A., Negrea-Busuioc, E., Guzek, D., Liebeskind, C., Hess, A., Crestani, F., Ravenda, F., et al.  
