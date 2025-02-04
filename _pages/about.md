@@ -12,6 +12,8 @@ I hold a degree in Statistics from Università Milano-Bicocca and am currently p
 
 During my PhD, I have worked on classification systems for the automatic screening of social media users to identify behavioral disorders based on their digital footprints. In the conversational AI domain, I have explored empathetic conversational approaches as well as methods for tasks like conversational search, including clarification need prediction. Beyond NLP, my work extends to applying machine learning (ML) and deep learning (DL) techniques for time series analysis.
 
+I also co-supervise(/d) three brilliant Msc students.
+
 ## 🧑‍💻 Research Interests
 
 **NLP 4 Mental Health**: Tailoring AI systems grounded in psychological principles  for the automatic screening of social media users, identifying behavioral disorders through digital footprints.
@@ -20,7 +22,11 @@ During my PhD, I have worked on classification systems for the automatic screeni
 
 **Conversational AI**:  Research on retrieval-augmented generation techniques and conversational systems, exploring methods to create more context-aware and naturally flowing users interactions.
 
-I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: https://github.com/Fede-stack/NLP-4-Mental-Health. And if you'd like to discuss any NLP-related topics, feel free to contact me at: *federico.ravenda [at] usi.ch* 
+I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: https://github.com/Fede-stack/NLP-4-Mental-Health. 
+
+If you'd like to discuss any NLP-related topics, feel free to contact me at: 
+
+*federico.ravenda [at] usi.ch* 
 
 # Publications
 
