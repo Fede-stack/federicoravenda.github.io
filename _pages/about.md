@@ -12,7 +12,7 @@ I hold a degree in Statistics from Università Milano-Bicocca and am currently p
 
 During my PhD, I have worked on classification systems for the automatic screening of social media users to identify behavioral disorders based on their digital footprints. In the conversational AI domain, I have explored empathetic conversational approaches as well as methods for tasks like conversational search, including clarification need prediction. Beyond NLP, my work extends to applying machine learning (ML) and deep learning (DL) techniques for time series analysis.
 
-I also co-supervise(/d) three brilliant Msc students.
+Also, I co-supervised four brilliant Msc students.
 
 ## 🧑‍💻 Research Interests
 
