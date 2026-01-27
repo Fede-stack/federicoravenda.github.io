@@ -8,19 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Computer Science at Università della Svizzera italiana (USI) in Lugano, Switzerland, where my research sits at the intersection of Natural Language Processing and Digital Health. I hold a degree in Statistics from Università Milano-Bicocca and bring a strong foundation in probabilistic modeling and machine learning to my work.
+I am a PhD candidate in Computer Science at Università della Svizzera italiana (USI) in Lugano, Switzerland, specializing in Natural Language Processing for Digital Health. I hold a Master's degree in Statistics from Università Milano-Bicocca, with expertise in probabilistic modeling and machine learning.
 
-My research explores advanced NLP methods, with applications spanning mental health, and conversational AI. Beyond NLP, I apply probabilistic deep learning techniques to time series analysis and engage in general machine learning research.
+
+My research explores advanced NLP methods, with applications spanning mental health, Conversational AI, and information Retrieval. Beyond NLP, I apply probabilistic deep learning techniques to time series analysis and engage in general machine learning research.
 
 ## 🧑‍💻 Research Interests
 
-**NLP for Mental Health**: Tailoring AI systems grounded in psychological principles for the automatic screening of social media users, identifying behavioral disorders through digital footprints.
+**NLP for Mental Health**: Tailoring AI systems for automated screening and assessment of mental health conditions using digital data sources, including social media text and conversational interactions. My work applies psychological frameworks to design clinically relevant NLP systems that can identify behavioral patterns indicative of mental health disorders.
 
 **Interpretability and Uncertainty in LLMs**: Recently exploring interpretability methods and uncertainty quantification techniques to enhance the reliability and trustworthiness of large language models, with applications to clinical NLP.
 
-**Conversational AI**: Research on retrieval-augmented generation techniques and conversational systems, exploring methods to create more context-aware and naturally flowing user interactions.
+**Information Retrieval**: Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. This work focuses on developing effective search systems and exploring retrieval-augmented generation techniques for knowledge-intensive applications.
 
-I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: https://github.com/Fede-stack/NLP-4-Mental-Health. 
+I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: [[link]](https://github.com/Fede-stack/NLP-4-Mental-Health).
 
 If you'd like to discuss any NLP-related topics, feel free to contact me at: 
 
@@ -31,7 +32,7 @@ If you'd like to discuss any NLP-related topics, feel free to contact me at:
 * **A general framework for adaptive nonparametric dimensionality reduction**\
 Di Noia, Antonio*, Federico Ravenda*, and Antonietta Mira. \
 [[paper]](https://arxiv.org/pdf/2511.09486)
-Accepted with minor revisions at Nature Scientific Reports\
+Accepted at Nature Scientific Reports\
 arXiv preprint arXiv:2511.09486 (2025)
 
 *  **Rethinking psychometrics through LLMs: how item semantics shape measurement and prediction in psychological questionnaires.**\
@@ -42,7 +43,7 @@ Ravenda, F., Preti, A., Poletti, M., Mira, A., & Raballo, A.\
 * **Navigating through the hidden embedding space: steering LLMs to improve mental health assessment**\
 Ravenda, F., Bahrainian, S. A., Raballo, A., & Mira, A.\
 [[paper]](https://arxiv.org/pdf/2510.16373)
-*arXiv preprint arXiv:2510.16373.*
+*Accepted at SAC'2026*
 
 * **Are llms effective psychological assessors? leveraging adaptive rag for interpretable mental health screening through psychometric practice**\
 Ravenda, F., Bahrainian, S.A., Raballo, A., Mira, A., & Kando, N.  \
