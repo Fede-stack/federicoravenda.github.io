@@ -29,11 +29,16 @@ If you'd like to discuss any NLP-related topics, feel free to contact me at:
 
 # Publications
 
+* **PersonalityDBench: A Dataset for Personality Disorders - from Modeling to Controlled Generation**\
+Ravenda Federico, Bahrainian, S. A., Montagnani, D., Mira, A., Raballo, A.  \
+[coming soon!]
+[Big News! 🤩] *Accepted as Main Conference Paper at **ACL 2026***
+
 * **A general framework for adaptive nonparametric dimensionality reduction**\
 Di Noia, Antonio*, Federico Ravenda*, and Antonietta Mira. \
 [[paper]](https://arxiv.org/pdf/2511.09486)
 Accepted at Nature Scientific Reports\
-arXiv preprint arXiv:2511.09486 (2025)
+*Nature Scientific Reports (2026).*
 
 *  **Rethinking psychometrics through LLMs: how item semantics shape measurement and prediction in psychological questionnaires.**\
 Ravenda, F., Preti, A., Poletti, M., Mira, A., & Raballo, A.\
