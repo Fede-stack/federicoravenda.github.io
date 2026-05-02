@@ -19,7 +19,7 @@ My research explores advanced NLP methods, with applications spanning mental hea
 
 **Interpretability and Uncertainty in LLMs**: Recently exploring interpretability methods and uncertainty quantification techniques to enhance the reliability and trustworthiness of large language models, with applications to clinical NLP.
 
-**Information Retrieval**: Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. This work focuses on developing effective search systems and exploring retrieval-augmented generation techniques for knowledge-intensive applications.
+**Information Retrieval**: Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. The aim is to develop effective search systems and exploring retrieval-augmented generation techniques for knowledge-intensive applications.
 
 I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: [[link]](https://github.com/Fede-stack/NLP-4-Mental-Health).
 
@@ -28,6 +28,11 @@ If you'd like to discuss any NLP-related topics, feel free to contact me at:
 *federico.ravenda [at] usi.ch* 
 
 # Publications
+
+* **TONY: an open-source TOolkit for Nlp in psYchology**\
+Ravenda Federico, Ravenda Sofia Irene, Karpenko V., Montagnani, D., Mira, A., Raballo, A.  \
+[coming soon!]
+[Big News! 🤩] *Accepted as Main Paper at **Demo ACL 2026***
 
 * **PersonalityDBench: A Dataset for Personality Disorders - from Modeling to Controlled Generation**\
 Ravenda Federico, Bahrainian, S. A., Montagnani, D., Mira, A., Raballo, A.  \
