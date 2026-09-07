@@ -33,17 +33,17 @@ If you'd like to discuss any NLP-related topics, feel free to contact me at:
 
 * **The Changing Geometry of Grammar: Dimensionality and Neighborhood Reorganization across Transformer Layers**\
 Samuele Vallisa*, Federico Ravenda*, Claudio Palominos, Rui He, Andrea Raballo, Antonietta Mira, Philipp Homan, Wolfram Hinzen \
-[paper]](https://arxiv.org/pdf/2608.25166)
+[[paper]](https://arxiv.org/pdf/2608.25166)
 [Big News! 🤩] *Submitted to **August 2026 ARR***
 
 * **TONY: an open-source TOolkit for Nlp in psYchology**\
 Ravenda Federico, Ravenda Sofia Irene, Karpenko V., Montagnani, D., Mira, A., Raballo, A.  \
-[paper]](https://aclanthology.org/2026.acl-demo.65.pdf)
+[[paper]](https://aclanthology.org/2026.acl-demo.65.pdf)
 [Big News! 🤩] *Accepted as Main Paper at **Demo ACL 2026***
 
 * **PersonalityDBench: A Dataset for Personality Disorders - from Modeling to Controlled Generation**\
 Ravenda Federico, Bahrainian, S. A., Montagnani, D., Mira, A., Raballo, A.  \
-[paper]](https://aclanthology.org/2026.acl-long.1395.pdf)
+[[paper]](https://aclanthology.org/2026.acl-long.1395.pdf)
 [Big News! 🤩] *Accepted as Main Conference Paper at **ACL 2026***
 
 * **A general framework for adaptive nonparametric dimensionality reduction**\
