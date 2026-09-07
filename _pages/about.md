@@ -15,11 +15,13 @@ My research explores advanced NLP methods, with applications spanning mental hea
 
 ## 🧑‍💻 Research Interests
 
-**NLP for Mental Health**: Tailoring AI systems for automated screening and assessment of mental health conditions using digital data sources, including social media text and conversational interactions. My work applies psychological frameworks to design clinically relevant NLP systems that can identify behavioral patterns indicative of mental health disorders.
+**Understanding minds through language**: Tailoring AI systems for automated screening and assessment of mental health conditions using digital data sources, including social media text and conversational interactions. My work applies psychological frameworks to design clinically relevant NLP systems that can identify behavioral patterns indicative of mental health disorders.
 
-**Interpretability and Uncertainty in LLMs**: Recently exploring interpretability methods and uncertainty quantification techniques to enhance the reliability and trustworthiness of large language models, with applications to clinical NLP.
+**Trust, but verify**: Recently exploring interpretability methods and uncertainty quantification techniques to enhance the reliability and trustworthiness of large language models, with applications to clinical NLP.
 
-**Information Retrieval**: Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. The aim is to develop effective search systems and exploring retrieval-augmented generation techniques for knowledge-intensive applications.
+**Finding the needle in the haystack**: Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. The aim is to develop effective search systems and exploring retrieval-augmented generation techniques for knowledge-intensive applications.
+
+**Good things come in small packages**: Investigating methods to improve the performance of small language models on clinically relevant diagnostic and assessment tasks. My research focuses on adapting and optimizing compact models through knowledge distillation, supervised fine-tuning, and reinforcement learning, with the goal of developing efficient models that can approach the diagnostic capabilities of larger systems while requiring substantially fewer computational resources.
 
 I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: [[link]](https://github.com/Fede-stack/NLP-4-Mental-Health).
 
@@ -29,14 +31,19 @@ If you'd like to discuss any NLP-related topics, feel free to contact me at:
 
 # Publications
 
+* **The Changing Geometry of Grammar: Dimensionality and Neighborhood Reorganization across Transformer Layers**\
+Samuele Vallisa*, Federico Ravenda*, Claudio Palominos, Rui He, Andrea Raballo, Antonietta Mira, Philipp Homan, Wolfram Hinzen \
+[paper]](https://arxiv.org/pdf/2608.25166)
+[Big News! 🤩] *Submitted to **August 2026 ARR***
+
 * **TONY: an open-source TOolkit for Nlp in psYchology**\
 Ravenda Federico, Ravenda Sofia Irene, Karpenko V., Montagnani, D., Mira, A., Raballo, A.  \
-[coming soon!]
+[paper]](https://aclanthology.org/2026.acl-demo.65.pdf)
 [Big News! 🤩] *Accepted as Main Paper at **Demo ACL 2026***
 
 * **PersonalityDBench: A Dataset for Personality Disorders - from Modeling to Controlled Generation**\
 Ravenda Federico, Bahrainian, S. A., Montagnani, D., Mira, A., Raballo, A.  \
-[coming soon!]
+[paper]](https://aclanthology.org/2026.acl-long.1395.pdf)
 [Big News! 🤩] *Accepted as Main Conference Paper at **ACL 2026***
 
 * **A general framework for adaptive nonparametric dimensionality reduction**\
