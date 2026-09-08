@@ -189,6 +189,17 @@ author_profile: true
   border:1px solid var(--line);
 }
 
+.hb-polaroid .hb-shot{
+  aspect-ratio:auto;
+  background:none;
+}
+.hb-polaroid .hb-shot img{
+  height:auto;
+  object-fit:contain;
+}
+.hb-polaroid .hb-shot svg{position:static;height:150px;}
+.hb-polaroids{align-items:start;}
+  
 @media (max-width:600px){
   .hb-hero h2{font-size:1.7rem;}
   .hb-music{grid-template-columns:1fr;justify-items:center;}
@@ -331,21 +342,21 @@ author_profile: true
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#e8d3dc"/><circle cx="75" cy="70" r="30" fill="#d93b70" opacity=".55"/></svg>
           <img src="{{ base_path }}/images/hobbies/tokyo-1.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
-        <figcaption>Add your own photo here</figcaption>
+        <figcaption>Me in Shibuya, the first day I arrived in Tokyo. </figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#d6dde8"/><rect x="30" y="60" width="90" height="60" fill="#5a3e85" opacity=".45"/></svg>
           <img src="{{ base_path }}/images/hobbies/tokyo-2.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
-        <figcaption>Add your own photo here</figcaption>
+        <figcaption>One of the many (!) dinner ramen</figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#dfe8e0"/><path d="M0 110c40-30 70 10 150-20v60H0z" fill="#0e7c7b" opacity=".5"/></svg>
           <img src="{{ base_path }}/images/hobbies/tokyo-3.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
-        <figcaption>Add your own photo here</figcaption>
+        <figcaption>Fushimi Inari-taisha</figcaption>
       </figure>
     </div>
 
@@ -358,6 +369,8 @@ author_profile: true
   </div>
 
 </div>
+
+
 
 <script>
 (function(){
