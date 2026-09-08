@@ -238,7 +238,7 @@ author_profile: true
 <div class="hb">
 
   <div class="hb-hero">
-    <h2>Beyond Academia</h2>
+    <h2>Hobbies</h2>
     <p>I am now closer to 30 than to 20, which, as far as I can tell, is the ideal age to start two new sporting careers at once.</p>
     <div class="hb-tabs" role="tablist" aria-label="Things I do outside research">
       <button class="hb-tab" id="hb-tab-sport" role="tab" aria-controls="hb-panel-sport" aria-selected="true" style="--tab-color:#0e7c7b">🏄 Board &amp; rackets</button>
