@@ -243,7 +243,7 @@ author_profile: true
     <div class="hb-tabs" role="tablist" aria-label="Things I do outside research">
       <button class="hb-tab" id="hb-tab-sport" role="tab" aria-controls="hb-panel-sport" aria-selected="true" style="--tab-color:#0e7c7b">🏄 Board &amp; rackets</button>
       <button class="hb-tab" id="hb-tab-music" role="tab" aria-controls="hb-panel-music" aria-selected="false" tabindex="-1" style="--tab-color:#5a3e85">🎧 On repeat</button>
-      <button class="hb-tab" id="hb-tab-tokyo" role="tab" aria-controls="hb-panel-tokyo" aria-selected="false" tabindex="-1" style="--tab-color:#d93b70">🗼 Tokyo, finally</button>
+      <button class="hb-tab" id="hb-tab-tokyo" role="tab" aria-controls="hb-panel-tokyo" aria-selected="false" tabindex="-1" style="--tab-color:#d93b70">🗼 Tokyo and Murakami</button>
     </div>
   </div>
 
@@ -283,7 +283,7 @@ author_profile: true
         </div>
         <div class="hb-card-body">
           <h3>Padel</h3>
-          <p>A decent smash, and an elegant way of moving at the net that I stole from tennis. Still working out how to use the walls.</p>
+          <p>A decent smash, and an elegant way of moving at the net that I stole from tennis. Still figuring out how to use the walls.</p>
           <div class="hb-meter"><span>Smash</span><div class="hb-bar"><i data-fill="82"></i></div></div>
           <div class="hb-meter"><span>Elegance at the net</span><div class="hb-bar"><i data-fill="88"></i></div></div>
         </div>
@@ -320,9 +320,9 @@ author_profile: true
             <img src="{{ base_path }}/images/hobbies/album.jpg" alt="Album cover" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
           </span>
         </button>
-        <span class="hb-caption" id="hb-caption"><b>Take Care</b>Tap the sleeve</span>
+        <span class="hb-caption" id="hb-caption"><b>Take Care</b>Tap the cover</span>
       </div>
-      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake (honourable mentions to Nonostante Tutto by Gemitaiz, Views by Drake, and Graduation by Kanye West).</p>
+      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake (honourable mentions to Nonostante Tutto by Gemitaiz - a skipless record and by far my favourite Italian album; Views by Drake - the soundtrack of my life across all seasons; Get Rich or Die Trying - the first album that comes to mind when I hear the word 'hip hop', the 'College' trilogy by Kanye West - to boost my self-esteem, and Rated-R by Rihanna - one of the best pop albums of the 2000s).</p>
     </div>
   </div>
 
@@ -347,7 +347,7 @@ author_profile: true
       </g>
     </svg>
 
-    <p class="hb-lead">I spent high school reading Murakami and picturing Japan. In 2024 I got the opportunity to live in Tokyo for four months as a visiting researcher at NII, and <b>the city is better than the one I had imagined</b>.</p>
+    <p class="hb-lead">I spent high school reading <b>Murakami</b> and picturing Japan. In 2024 I got the opportunity to live in Tokyo for four months as a visiting researcher at NII, and <b>the city is even better than the one I had imagined through Murakami's lens. </b>.</p>
 
     <div class="hb-polaroids">
       <figure class="hb-polaroid">
