@@ -11,17 +11,176 @@ redirect_from:
 I am a PhD candidate in Computer Science at Università della Svizzera italiana (USI) in Lugano, Switzerland, specializing in Natural Language Processing for Digital Health. I hold a Master's degree in Statistics from Università Milano-Bicocca, with expertise in probabilistic modeling and machine learning.
 
 
-My research explores advanced NLP methods, with applications spanning mental health, Conversational AI, and information Retrieval. Beyond NLP, I apply probabilistic deep learning techniques to time series analysis and engage in general machine learning research.
+My research explores advanced NLP methods, with applications spanning mental health, Conversational AI, and Information Retrieval. Beyond NLP, I apply probabilistic deep learning techniques to time series analysis and engage in general machine learning research.
 
 ## 🧑‍💻 Research Interests
 
-**Understanding minds through language**: Tailoring AI systems for automated screening and assessment of mental health conditions using digital data sources, including social media text and conversational interactions. My work applies psychological frameworks to design clinically relevant NLP systems that can identify behavioral patterns indicative of mental health disorders.
+<style>
+.ri{
+  --ri-ink:#1c2b33;
+  --ri-accent:#0e7c7b;
+  --ri-line:rgba(28,43,51,.14);
+  margin:0 0 1.8rem;
+  display:grid;
+  grid-template-columns:minmax(190px,240px) 1fr;
+  gap:0;
+  border:1px solid var(--ri-line);
+  border-radius:10px;
+  overflow:hidden;
+  background:#fff;
+}
+.ri *{box-sizing:border-box;}
+.ri-rail{
+  display:flex;
+  flex-direction:column;
+  background:#f4f7f7;
+  border-right:1px solid var(--ri-line);
+}
+.ri-tab{
+  appearance:none;
+  border:0;
+  border-bottom:1px solid var(--ri-line);
+  background:transparent;
+  color:#41535d;
+  text-align:left;
+  font-size:.9rem;
+  line-height:1.35;
+  font-weight:600;
+  padding:.85rem 1rem .85rem .9rem;
+  cursor:pointer;
+  border-left:3px solid transparent;
+  transition:background .15s ease,color .15s ease,border-color .15s ease;
+}
+.ri-tab:last-child{border-bottom:0;}
+.ri-tab:hover{background:#eaf0f0;color:var(--ri-ink);}
+.ri-tab[aria-selected="true"]{
+  background:#fff;
+  color:var(--ri-ink);
+  border-left-color:var(--ri-accent);
+}
+.ri-tab:focus-visible{outline:2px solid var(--ri-accent);outline-offset:-3px;}
+.ri-panels{padding:1.3rem 1.4rem;}
+.ri-panel[hidden]{display:none;}
+.ri-panel h3{
+  margin:0 0 .6rem;
+  font-size:1.12rem;
+  line-height:1.3;
+  color:var(--ri-ink);
+}
+.ri-panel p{
+  margin:0 0 1rem;
+  font-size:.95rem;
+  line-height:1.65;
+  color:#3d4c56;
+  max-width:66ch;
+}
+.ri-keys{
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.4rem;
+  margin:0;
+  padding:0;
+}
+.ri-keys li{
+  font-size:.78rem;
+  color:#2f5d5c;
+  background:rgba(14,124,123,.09);
+  border-radius:999px;
+  padding:.25rem .7rem;
+}
+@media (max-width:620px){
+  .ri{grid-template-columns:1fr;}
+  .ri-rail{flex-direction:row;flex-wrap:wrap;border-right:0;border-bottom:1px solid var(--ri-line);}
+  .ri-tab{flex:1 1 45%;border-bottom:0;border-left:0;border-top:3px solid transparent;padding:.7rem .8rem;font-size:.82rem;}
+  .ri-tab[aria-selected="true"]{border-left-color:transparent;border-top-color:var(--ri-accent);}
+  .ri-panels{padding:1.1rem 1rem;}
+}
+@media (prefers-reduced-motion:reduce){.ri *{transition:none !important;}}
+</style>
 
-**Trust, but verify**: Recently exploring interpretability methods and uncertainty quantification techniques to enhance the reliability and trustworthiness of large language models, with applications to clinical NLP.
+<div class="ri">
+  <div class="ri-rail" role="tablist" aria-label="Research interests">
+    <button class="ri-tab" id="ri-t1" role="tab" aria-controls="ri-p1" aria-selected="true">Understanding minds through language</button>
+    <button class="ri-tab" id="ri-t2" role="tab" aria-controls="ri-p2" aria-selected="false" tabindex="-1">Trust, but verify</button>
+    <button class="ri-tab" id="ri-t3" role="tab" aria-controls="ri-p3" aria-selected="false" tabindex="-1">Finding the needle in the haystack</button>
+    <button class="ri-tab" id="ri-t4" role="tab" aria-controls="ri-p4" aria-selected="false" tabindex="-1">Good things come in small packages</button>
+  </div>
 
-**Finding the needle in the haystack**: Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. The aim is to develop effective search systems and exploring retrieval-augmented generation techniques for knowledge-intensive applications.
+  <div class="ri-panels">
+    <div class="ri-panel" id="ri-p1" role="tabpanel" aria-labelledby="ri-t1">
+      <h3>Understanding minds through language</h3>
+      <p>Tailoring AI systems for automated screening and assessment of mental health conditions using digital data sources, including social media text and conversational interactions. My work applies psychological frameworks to design clinically relevant NLP systems that can identify behavioral patterns indicative of mental health disorders.</p>
+      <ul class="ri-keys">
+        <li>mental health screening</li>
+        <li>social media text</li>
+        <li>conversational data</li>
+        <li>psychological frameworks</li>
+      </ul>
+    </div>
 
-**Good things come in small packages**: Investigating methods to improve the performance of small language models on clinically relevant diagnostic and assessment tasks. My research focuses on adapting and optimizing compact models through knowledge distillation, supervised fine-tuning, and reinforcement learning, with the goal of developing efficient models that can approach the diagnostic capabilities of larger systems while requiring substantially fewer computational resources.
+    <div class="ri-panel" id="ri-p2" role="tabpanel" aria-labelledby="ri-t2" hidden>
+      <h3>Trust, but verify</h3>
+      <p>Recently exploring interpretability methods and uncertainty quantification techniques to enhance the reliability and trustworthiness of large language models, with applications to clinical NLP.</p>
+      <ul class="ri-keys">
+        <li>interpretability</li>
+        <li>uncertainty quantification</li>
+        <li>clinical NLP</li>
+      </ul>
+    </div>
+
+    <div class="ri-panel" id="ri-p3" role="tabpanel" aria-labelledby="ri-t3" hidden>
+      <h3>Finding the needle in the haystack</h3>
+      <p>Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. The aim is to develop effective search systems and explore retrieval-augmented generation techniques for knowledge-intensive applications.</p>
+      <ul class="ri-keys">
+        <li>information retrieval</li>
+        <li>ranking</li>
+        <li>retrieval-augmented generation</li>
+      </ul>
+    </div>
+
+    <div class="ri-panel" id="ri-p4" role="tabpanel" aria-labelledby="ri-t4" hidden>
+      <h3>Good things come in small packages</h3>
+      <p>Investigating methods to improve the performance of small language models on clinically relevant diagnostic and assessment tasks. My research focuses on adapting and optimizing compact models through knowledge distillation, supervised fine-tuning, and reinforcement learning, with the goal of developing efficient models that can approach the diagnostic capabilities of larger systems while requiring substantially fewer computational resources.</p>
+      <ul class="ri-keys">
+        <li>small language models</li>
+        <li>knowledge distillation</li>
+        <li>supervised fine-tuning</li>
+        <li>reinforcement learning</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var rail = document.querySelector('.ri-rail');
+  if(!rail) return;
+  var tabs = Array.prototype.slice.call(rail.querySelectorAll('.ri-tab'));
+
+  function select(tab){
+    tabs.forEach(function(t){
+      var on = (t === tab);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+  }
+
+  tabs.forEach(function(tab, i){
+    tab.addEventListener('click', function(){ select(tab); });
+    tab.addEventListener('keydown', function(e){
+      var dir = (e.key === 'ArrowDown' || e.key === 'ArrowRight') ? 1
+              : (e.key === 'ArrowUp' || e.key === 'ArrowLeft') ? -1 : 0;
+      if(!dir) return;
+      e.preventDefault();
+      var next = tabs[(i + dir + tabs.length) % tabs.length];
+      select(next);
+      next.focus();
+    });
+  });
+})();
+</script>
 
 I've created a repository that I regularly update with available datasets from the literature for NLP research in Mental Health, intended for all practitioners. If you're interested, check out the following link: [[link]](https://github.com/Fede-stack/NLP-4-Mental-Health).
 
