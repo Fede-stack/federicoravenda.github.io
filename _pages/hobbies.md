@@ -347,7 +347,7 @@ author_profile: true
       </g>
     </svg>
 
-    <p class="hb-lead">I spent high school reading <b>Murakami</b> and picturing Japan. In 2024 I got the opportunity to live in Tokyo for four months as a visiting researcher at NII, and <b>the city is even better than the one I had imagined through Murakami's lens. </b>.</p>
+    <p class="hb-lead">I spent high school reading <b>Murakami</b> and picturing Japan. In 2024 I got the opportunity to live in Tokyo for four months as a visiting researcher at NII, and <b>the city is even better than the one I had imagined through Murakami's lens. </b></p>
 
     <div class="hb-polaroids">
       <figure class="hb-polaroid">
