@@ -24,6 +24,9 @@ main:
     
   - title: "CV"
     url: /files/Resume.pdf
+
+  - title: "Beyond Research"
+       url: /hobbies/
     
   #- title: "Guide"
    # url: /markdown/
