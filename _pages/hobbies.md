@@ -202,6 +202,14 @@ author_profile: true
 .hb-caption b{display:block;color:var(--ink);font-weight:700;font-size:.9rem;}
 .hb-prose{margin:0;font-size:1.02rem;line-height:1.75;max-width:60ch;}
 .hb-prose b{color:var(--accent);font-weight:700;}
+.hb-embed{
+  grid-column:2;
+  display:block;
+  width:100%;
+  margin-top:1.2rem;
+  border:0;
+  border-radius:12px;
+}
 
 /* ---------- tokyo ---------- */
 .hb-skyline{
@@ -229,6 +237,7 @@ author_profile: true
   .hb-music{grid-template-columns:1fr;justify-items:center;}
   .hb-player{width:200px;}
   .hb-prose{font-size:.98rem;}
+  .hb-embed{grid-column:1;}
 }
 @media (prefers-reduced-motion:reduce){
   .hb *{animation:none !important;transition:none !important;}
@@ -322,7 +331,15 @@ author_profile: true
         </button>
         <span class="hb-caption" id="hb-caption"><b>Take Care</b>Tap the sleeve</span>
       </div>
-      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis on every drive we ever took — that car had one soundtrack and no one complained. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake, and I have stopped pretending that answer is going to change.</p>
+      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake (honourable mentions to Nonostante Tutto by Gemitaiz, Views by Drake, and Graduation by Kanye West).</p>
+
+      <iframe class="hb-embed"
+              src="https://open.spotify.com/embed/album/IL_TUO_ID?theme=0"
+              height="152"
+              frameborder="0"
+              allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+              title="Take Care on Spotify"></iframe>
     </div>
   </div>
 
