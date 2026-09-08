@@ -202,8 +202,8 @@ author_profile: true
 <div class="hb">
 
   <div class="hb-hero">
-    <h2>Closer to 30 than to 20</h2>
-    <p>Which, as far as I can tell, is the ideal age to start three new careers at once: in the water, on a padel court, and in a record collection.</p>
+    <h2>Beyond Academia</h2>
+    <p>Now that I am closer to 30 rather than 20, which, as far as I can tell, is the ideal age to start two new careers at once: in the water, and on a padel court.</p>
     <div class="hb-tabs" role="tablist" aria-label="Things I do outside research">
       <button class="hb-tab" id="hb-tab-sport" role="tab" aria-controls="hb-panel-sport" aria-selected="true" style="--tab-color:#0e7c7b">🏄 Board &amp; rackets</button>
       <button class="hb-tab" id="hb-tab-music" role="tab" aria-controls="hb-panel-music" aria-selected="false" tabindex="-1" style="--tab-color:#5a3e85">🎧 On repeat</button>
@@ -213,7 +213,7 @@ author_profile: true
 
   <!-- ============ SPORT ============ -->
   <div class="hb-panel" id="hb-panel-sport" role="tabpanel" aria-labelledby="hb-tab-sport" style="--accent:var(--sea)">
-    <p class="hb-lead">Now that I'm closer to 30 than to 20, I've reinvented myself as an <b>occasional, low-level surfer</b> and a padel player with a decent smash and a certain elegance at the net — inherited from a short amateur tennis career as a kid.</p>
+    <p class="hb-lead">Now that I'm closer to 30 than to 20, I've reinvented myself as an <b>occasional, low-level surfer</b> and a padel player with a decent smash and a certain elegance at the net.</p>
 
     <div class="hb-cards">
 
@@ -229,8 +229,8 @@ author_profile: true
         </div>
         <div class="hb-card-body">
           <h3>Surfing</h3>
-          <p>Occasional and unmistakably low-level. The ocean and I have an understanding: it lets me try, I let it win.</p>
-          <div class="hb-meter"><span>Time spent paddling</span><div class="hb-bar"><i data-fill="92"></i></div></div>
+          <p>Occasional and unmistakably low-level. The ocean and I have a deal: it lets me try and have fun, I let it win.</p>
+          <div class="hb-meter"><span>Time spent finding the right wave</span><div class="hb-bar"><i data-fill="92"></i></div></div>
           <div class="hb-meter"><span>Time spent standing up</span><div class="hb-bar"><i data-fill="24"></i></div></div>
         </div>
       </div>
@@ -247,7 +247,7 @@ author_profile: true
         </div>
         <div class="hb-card-body">
           <h3>Padel</h3>
-          <p>A decent smash, and a way of moving at the net that I stole from tennis lessons taken twenty years ago.</p>
+          <p>A decent smash, and an elegant way of moving at the net that I stole from tennis. Still understanding how to use the walls. </p>
           <div class="hb-meter"><span>Smash</span><div class="hb-bar"><i data-fill="82"></i></div></div>
           <div class="hb-meter"><span>Elegance at the net</span><div class="hb-bar"><i data-fill="88"></i></div></div>
         </div>
@@ -323,27 +323,27 @@ author_profile: true
       </g>
     </svg>
 
-    <p class="hb-lead">I spent high school reading Murakami and picturing Japan. In 2024 I got to live in Tokyo for four months as a visiting researcher at NII — and <b>the city is better than the one I had imagined</b>.</p>
+    <p class="hb-lead">I spent high school reading Murakami and picturing Japan. In 2024 I got the opportunity to live in Tokyo for four months as a visiting researcher at NII, and <b>the city is better than the one I had imagined</b>.</p>
 
     <div class="hb-polaroids">
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#e8d3dc"/><circle cx="75" cy="70" r="30" fill="#d93b70" opacity=".55"/></svg>
-          <img src="{{ base_path }}/images/hobbies/tokyo-1.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-1.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <figcaption>Add your own photo here</figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#d6dde8"/><rect x="30" y="60" width="90" height="60" fill="#5a3e85" opacity=".45"/></svg>
-          <img src="{{ base_path }}/images/hobbies/tokyo-2.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-2.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <figcaption>Add your own photo here</figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#dfe8e0"/><path d="M0 110c40-30 70 10 150-20v60H0z" fill="#0e7c7b" opacity=".5"/></svg>
-          <img src="{{ base_path }}/images/hobbies/tokyo-3.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-3.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <figcaption>Add your own photo here</figcaption>
       </figure>
