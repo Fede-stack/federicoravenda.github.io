@@ -134,7 +134,6 @@ My research explores advanced NLP methods, with applications spanning mental hea
       <p>Researching retrieval methods and ranking algorithms to improve access to relevant information in specialized domains. The aim is to develop effective search systems and explore retrieval-augmented generation techniques for knowledge-intensive applications.</p>
       <ul class="ri-keys">
         <li>information retrieval</li>
-        <li>ranking</li>
         <li>retrieval-augmented generation</li>
       </ul>
     </div>
@@ -143,7 +142,6 @@ My research explores advanced NLP methods, with applications spanning mental hea
       <h3>Good things come in small packages</h3>
       <p>Investigating methods to improve the performance of small language models on clinically relevant diagnostic and assessment tasks. My research focuses on adapting and optimizing compact models through knowledge distillation, supervised fine-tuning, and reinforcement learning, with the goal of developing efficient models that can approach the diagnostic capabilities of larger systems while requiring substantially fewer computational resources.</p>
       <ul class="ri-keys">
-        <li>small language models</li>
         <li>knowledge distillation</li>
         <li>supervised fine-tuning</li>
         <li>reinforcement learning</li>
