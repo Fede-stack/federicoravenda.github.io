@@ -34,7 +34,7 @@ If you'd like to discuss any NLP-related topics, feel free to contact me at:
 * **The Changing Geometry of Grammar: Dimensionality and Neighborhood Reorganization across Transformer Layers**\
 Samuele Vallisa*, Federico Ravenda*, Claudio Palominos, Rui He, Andrea Raballo, Antonietta Mira, Philipp Homan, Wolfram Hinzen \
 [[paper]](https://arxiv.org/pdf/2608.25166)
-[Big News! 🤩] *Submitted to **August 2026 ARR***
+*Submitted to *August 2026 ARR* *
 
 * **TONY: an open-source TOolkit for Nlp in psYchology**\
 Ravenda Federico, Ravenda Sofia Irene, Karpenko V., Montagnani, D., Mira, A., Raballo, A.  \
