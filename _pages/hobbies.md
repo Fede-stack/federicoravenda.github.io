@@ -5,6 +5,8 @@ permalink: /hobbies/
 author_profile: true
 ---
 
+{% include base_path %}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -223,7 +225,7 @@ author_profile: true
             <path d="M0 118c35-16 62 10 92-4s58-20 108-2v38H0z" fill="#1c6b6e"/>
             <circle cx="152" cy="34" r="16" fill="#f0e2c4"/>
           </svg>
-          <img src="/images/hobbies/surf.jpg" alt="Surfing" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/surf.jpg" alt="Surfing" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <div class="hb-card-body">
           <h3>Surfing</h3>
@@ -241,7 +243,7 @@ author_profile: true
             <line x1="18" y1="75" x2="182" y2="75" stroke="#dfe9ec" stroke-width="3"/>
             <circle cx="100" cy="48" r="9" fill="#e4ef50"/>
           </svg>
-          <img src="/images/hobbies/padel.jpg" alt="Padel" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/padel.jpg" alt="Padel" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <div class="hb-card-body">
           <h3>Padel</h3>
@@ -259,7 +261,7 @@ author_profile: true
             <line x1="0" y1="75" x2="200" y2="75" stroke="#e8f2e6" stroke-width="3"/>
             <circle cx="100" cy="75" r="7" fill="#e8f2e6"/>
           </svg>
-          <img src="/images/hobbies/football.jpg" alt="Football" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/football.jpg" alt="Football" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <div class="hb-card-body">
           <h3>Football, past tense</h3>
@@ -327,21 +329,21 @@ author_profile: true
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#e8d3dc"/><circle cx="75" cy="70" r="30" fill="#d93b70" opacity=".55"/></svg>
-          <img src="/images/hobbies/tokyo-1.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-1.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <figcaption>Add your own photo here</figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#d6dde8"/><rect x="30" y="60" width="90" height="60" fill="#5a3e85" opacity=".45"/></svg>
-          <img src="/images/hobbies/tokyo-2.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-2.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <figcaption>Add your own photo here</figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#dfe8e0"/><path d="M0 110c40-30 70 10 150-20v60H0z" fill="#0e7c7b" opacity=".5"/></svg>
-          <img src="/images/hobbies/tokyo-3.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-3.jpg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
         <figcaption>Add your own photo here</figcaption>
       </figure>
