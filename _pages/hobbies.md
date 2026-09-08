@@ -130,40 +130,14 @@ author_profile: true
   transition:width .9s cubic-bezier(.2,.7,.3,1);
 }
 
-/* ---------- music ---------- */
-.hb-music{display:grid;grid-template-columns:150px 1fr;gap:1.4rem;align-items:start;}
-.hb-vinyl{
-  width:150px;height:150px;border-radius:50%;
-  border:0;padding:0;cursor:pointer;
-  background:
-    radial-gradient(circle at 50% 50%, #f3f0ea 0 12%, var(--plum) 12% 15%, #1a1420 15% 46%, #241b2c 46% 48%, #1a1420 48% 100%);
-  box-shadow:0 6px 20px rgba(19,32,41,.25);
-  position:relative;
-}
-.hb-vinyl::after{
-  content:"";position:absolute;inset:0;border-radius:50%;
-  background:repeating-radial-gradient(circle at 50% 50%,rgba(255,255,255,.05) 0 2px,transparent 2px 5px);
-}
-.hb-vinyl.is-spinning{animation:hb-spin 3.2s linear infinite;}
-@keyframes hb-spin{to{transform:rotate(360deg);}}
-.hb-vinyl-hint{display:block;font-size:.78rem;color:#5b6a73;text-align:center;margin-top:.5rem;}
-.hb-steps{list-style:none;margin:0;padding:0;}
-.hb-steps li{
-  padding:0 0 1.1rem 2.4rem;
-  position:relative;
-  border-left:2px solid rgba(19,32,41,.15);
-  margin-left:.6rem;
-}
-.hb-steps li:last-child{border-left-color:transparent;padding-bottom:0;}
-.hb-num{
-  position:absolute;left:-.85rem;top:0;
-  width:1.7rem;height:1.7rem;border-radius:50%;
-  background:var(--accent);color:#fff;
-  font-size:.8rem;font-weight:700;
-  display:flex;align-items:center;justify-content:center;
-}
-.hb-steps h3{margin:.15rem 0 .2rem;font-size:1rem;}
-.hb-steps p{margin:0;font-size:.92rem;color:#3d4c56;}
+/* ---------- music ---------- */ .hb-music{display:grid;grid-template-columns:230px 1fr;gap:1.8rem;align-items:start;} .hb-player{position:relative;width:230px;} .hb-turntable{ position:relative; width:100%; aspect-ratio:1/1; background:0;border:0;padding:0; cursor:pointer; display:block; } .hb-turntable:focus-visible{outline:2px solid var(--plum);outline-offset:6px;border-radius:8px;} .hb-disc{ position:absolute; top:6%;left:0; width:88%; aspect-ratio:1/1; border-radius:50%; background: radial-gradient(circle at 50% 50%, 
+#f3f0ea 0 11%, var(--plum) 11% 14%, 
+#1a1420 14% 46%, 
+#241b2c 46% 48%, 
+#1a1420 48% 100%); box-shadow:0 6px 18px rgba(19,32,41,.3); transition:transform .55s cubic-bezier(.2,.75,.3,1); z-index:1; } .hb-disc::after{ content:"";position:absolute;inset:0;border-radius:50%; background:repeating-radial-gradient(circle at 50% 50%,rgba(255,255,255,.05) 0 2px,transparent 2px 5px); } .hb-sleeve{ position:relative; width:88%; aspect-ratio:1/1; background:
+#d9d4cc; border-radius:3px; overflow:hidden; box-shadow:0 4px 14px rgba(19,32,41,.28); z-index:2; } .hb-sleeve img{width:100%;height:100%;object-fit:cover;display:block;} .hb-sleeve.is-empty img{display:none;} .hb-sleeve.is-empty::after{ content:"cover"; position:absolute;inset:0; display:flex;align-items:center;justify-content:center; font-size:.8rem;color:
+#6d6459;letter-spacing:.08em; } .hb-player.is-playing .hb-disc{ transform:translateX(38%); animation:hb-spin 3.2s linear infinite; } .hb-caption{ display:block;margin-top:.7rem; font-size:.82rem;color:
+#5b6a73;line-height:1.4; } .hb-caption b{display:block;color:var(--ink);font-weight:700;font-size:.9rem;} .hb-prose{margin:0;font-size:1.02rem;line-height:1.75;max-width:60ch;} .hb-prose b{color:var(--accent);font-weight:700;}
 
 /* ---------- tokyo ---------- */
 .hb-skyline{
@@ -202,8 +176,9 @@ author_profile: true
   
 @media (max-width:600px){
   .hb-hero h2{font-size:1.7rem;}
-  .hb-music{grid-template-columns:1fr;justify-items:center;}
-  .hb-steps{justify-self:stretch;}
+  .hb-music{grid-template-columns:1fr;justify-items:center;} 
+  .hb-player{width:200px;} 
+  .hb-prose{font-size:.98rem;}
 }
 @media (prefers-reduced-motion:reduce){
   .hb *{animation:none !important;transition:none !important;}
@@ -287,29 +262,18 @@ author_profile: true
 
   <!-- ============ MUSIC ============ -->
   <div class="hb-panel" id="hb-panel-music" role="tabpanel" aria-labelledby="hb-tab-music" style="--accent:var(--plum)" hidden>
-    <p class="hb-lead">My taste has one clear origin story and one long detour: from rock heard through car speakers to <b>RnB and Hip Hop</b>.</p>
     <div class="hb-music">
-      <div>
-        <button class="hb-vinyl" type="button" aria-pressed="false" aria-label="Spin the record"></button>
-        <span class="hb-vinyl-hint">Tap the record</span>
+      <div class="hb-player" id="hb-player">
+        <button class="hb-turntable" type="button" aria-pressed="false" aria-label="Play the record">
+          <span class="hb-disc"></span>
+          <span class="hb-sleeve">
+            <img src="{{ base_path }}/images/hobbies/album.jpg" alt="Album cover" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          </span>
+        </button>
+        <span class="hb-caption" id="hb-caption"><b>Take Care</b>Tap the sleeve</span>
       </div>
-      <ol class="hb-steps">
-        <li>
-          <span class="hb-num">1</span>
-          <h3>Aerosmith and Red Hot Chili Peppers</h3>
-          <p>Played on repeat with my dad in his old Toyota Avensis. Still the sound of every long drive.</p>
-        </li>
-        <li>
-          <span class="hb-num">2</span>
-          <h3>High school: the switch</h3>
-          <p>Rock made room for RnB and Hip Hop, and it never really moved back.</p>
-        </li>
-        <li>
-          <span class="hb-num">3</span>
-          <h3>Favourite album: <em>Take Care</em>, Drake</h3>
-          <p>Probably. Ask me again in a year and the answer will probably be the same.</p>
-        </li>
-      </ol>
+      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis on every drive we ever took — that car had one soundtrack and no one complained. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake, and I've stopped pretending that answer is going to change.</p>
+    </div>
     </div>
   </div>
 
@@ -408,12 +372,32 @@ author_profile: true
 
   select(tabs[0]);
 
-  var vinyl = root.querySelector('.hb-vinyl');
-  var hint = root.querySelector('.hb-vinyl-hint');
-  vinyl.addEventListener('click', function(){
-    var spinning = vinyl.classList.toggle('is-spinning');
-    vinyl.setAttribute('aria-pressed', spinning ? 'true' : 'false');
-    hint.textContent = spinning ? 'Take Care, side A' : 'Tap the record';
-  });
+  var player = document.getElementById('hb-player'); var turntable = player.querySelector('.hb-turntable'); var caption = document.getElementById('hb-caption'); var audioCtx, crackleNode, gainNode;
+function startCrackle(){ var Ctx = window.AudioContext || window.webkitAudioContext; if(!Ctx) return; if(!audioCtx) audioCtx = new Ctx(); if(audioCtx.state === 'suspended') audioCtx.resume();
+var seconds = 2;
+var buffer = audioCtx.createBuffer(1, audioCtx.sampleRate * seconds, audioCtx.sampleRate);
+var data = buffer.getChannelData(0);
+for(var i = 0; i < data.length; i++){
+  var hiss = (Math.random() * 2 - 1) * 0.035;
+  var pop = Math.random() < 0.0004 ? (Math.random() * 2 - 1) * 0.7 : 0;
+  data[i] = hiss + pop;
+}
+
+crackleNode = audioCtx.createBufferSource();
+crackleNode.buffer = buffer;
+crackleNode.loop = true;
+
+var filter = audioCtx.createBiquadFilter();
+filter.type = 'lowpass';
+filter.frequency.value = 3200;
+
+gainNode = audioCtx.createGain();
+gainNode.gain.setValueAtTime(0, audioCtx.currentTime);
+gainNode.gain.linearRampToValueAtTime(0.6, audioCtx.currentTime + 0.35);
+
+crackleNode.connect(filter).connect(gainNode).connect(audioCtx.destination);
+crackleNode.start();
+function stopCrackle(){ if(!crackleNode || !audioCtx) return; var node = crackleNode; gainNode.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.25); setTimeout(function(){ try{ node.stop(); }catch(e){} }, 300); crackleNode = null; }
+turntable.addEventListener('click', function(){ var playing = player.classList.toggle('is-playing'); turntable.setAttribute('aria-pressed', playing ? 'true' : 'false'); caption.innerHTML = playing ? '<b>Take Care</b>Side A, spinning' : '<b>Take Care</b>Tap the sleeve'; if(playing){ startCrackle(); } else { stopCrackle(); } });
 })();
 </script>
