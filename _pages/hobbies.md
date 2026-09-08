@@ -214,7 +214,7 @@ author_profile: true
 
   <div class="hb-hero">
     <h2>Beyond Academia</h2>
-    <p>Now that I am closer to 30 rather than 20, which, as far as I can tell, is the ideal age to start two new careers at once: in the water, and on a padel court.</p>
+    <p>Now that I am closer to 30 rather than 20, which, as far as I can tell, is the ideal age to start two new careers at once.</p>
     <div class="hb-tabs" role="tablist" aria-label="Things I do outside research">
       <button class="hb-tab" id="hb-tab-sport" role="tab" aria-controls="hb-panel-sport" aria-selected="true" style="--tab-color:#0e7c7b">🏄 Board &amp; rackets</button>
       <button class="hb-tab" id="hb-tab-music" role="tab" aria-controls="hb-panel-music" aria-selected="false" tabindex="-1" style="--tab-color:#5a3e85">🎧 On repeat</button>
