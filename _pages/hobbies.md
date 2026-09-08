@@ -360,12 +360,7 @@ author_profile: true
       </figure>
     </div>
 
-    <ul class="hb-chips">
-      <li>4 months in Tokyo</li>
-      <li>2024</li>
-      <li>Visiting research at NII</li>
-      <li>Murakami, since high school</li>
-    </ul>
+
   </div>
 
 </div>
