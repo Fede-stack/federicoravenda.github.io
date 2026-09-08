@@ -322,7 +322,7 @@ author_profile: true
         </button>
         <span class="hb-caption" id="hb-caption"><b>Take Care</b>Tap the cover</span>
       </div>
-      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake (honourable mentions to Nonostante Tutto by Gemitaiz - a skipless record and by far my favourite Italian album; Views by Drake - the soundtrack of my life across all seasons; Get Rich or Die Trying - the first album that comes to mind when I hear the word 'hip hop', the 'College' trilogy by Kanye West - to boost my self-esteem, and Rated-R by Rihanna - one of the best pop albums of the 2000s).</p>
+      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake (honourable mentions to Nonostante Tutto by Gemitaiz - a skipless record and by far my favourite Italian album; Views by Drake - the soundtrack of my life across all seasons; Get Rich or Die Trying - the first album that comes to mind when I hear the word 'hip hop'; the 'College' trilogy by Kanye West - to boost my self-esteem; and Rated-R by Rihanna - one of the best pop albums of the 2000s).</p>
     </div>
   </div>
 
