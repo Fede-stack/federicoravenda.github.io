@@ -25,7 +25,7 @@ author_profile: true
   line-height:1.6;
 }
 .hb *{box-sizing:border-box;}
-.hb h2,.hb h3,.hb .hb-num,.hb .hb-tab{
+.hb h2,.hb h3,.hb .hb-tab{
   font-family:"Space Grotesk",system-ui,sans-serif;
   letter-spacing:-0.01em;
 }
@@ -130,14 +130,78 @@ author_profile: true
   transition:width .9s cubic-bezier(.2,.7,.3,1);
 }
 
-/* ---------- music ---------- */ .hb-music{display:grid;grid-template-columns:230px 1fr;gap:1.8rem;align-items:start;} .hb-player{position:relative;width:230px;} .hb-turntable{ position:relative; width:100%; aspect-ratio:1/1; background:0;border:0;padding:0; cursor:pointer; display:block; } .hb-turntable:focus-visible{outline:2px solid var(--plum);outline-offset:6px;border-radius:8px;} .hb-disc{ position:absolute; top:6%;left:0; width:88%; aspect-ratio:1/1; border-radius:50%; background: radial-gradient(circle at 50% 50%, 
-#f3f0ea 0 11%, var(--plum) 11% 14%, 
-#1a1420 14% 46%, 
-#241b2c 46% 48%, 
-#1a1420 48% 100%); box-shadow:0 6px 18px rgba(19,32,41,.3); transition:transform .55s cubic-bezier(.2,.75,.3,1); z-index:1; } .hb-disc::after{ content:"";position:absolute;inset:0;border-radius:50%; background:repeating-radial-gradient(circle at 50% 50%,rgba(255,255,255,.05) 0 2px,transparent 2px 5px); } .hb-sleeve{ position:relative; width:88%; aspect-ratio:1/1; background:
-#d9d4cc; border-radius:3px; overflow:hidden; box-shadow:0 4px 14px rgba(19,32,41,.28); z-index:2; } .hb-sleeve img{width:100%;height:100%;object-fit:cover;display:block;} .hb-sleeve.is-empty img{display:none;} .hb-sleeve.is-empty::after{ content:"cover"; position:absolute;inset:0; display:flex;align-items:center;justify-content:center; font-size:.8rem;color:
-#6d6459;letter-spacing:.08em; } .hb-player.is-playing .hb-disc{ transform:translateX(38%); animation:hb-spin 3.2s linear infinite; } .hb-caption{ display:block;margin-top:.7rem; font-size:.82rem;color:
-#5b6a73;line-height:1.4; } .hb-caption b{display:block;color:var(--ink);font-weight:700;font-size:.9rem;} .hb-prose{margin:0;font-size:1.02rem;line-height:1.75;max-width:60ch;} .hb-prose b{color:var(--accent);font-weight:700;}
+/* ---------- music ---------- */
+.hb-music{display:grid;grid-template-columns:230px 1fr;gap:1.8rem;align-items:start;}
+.hb-player{position:relative;width:230px;}
+.hb-turntable{
+  position:relative;
+  width:100%;
+  aspect-ratio:1/1;
+  background:0;
+  border:0;
+  padding:0;
+  cursor:pointer;
+  display:block;
+}
+.hb-turntable:focus-visible{outline:2px solid var(--plum);outline-offset:6px;border-radius:8px;}
+.hb-disc{
+  position:absolute;
+  top:6%;
+  left:0;
+  width:88%;
+  aspect-ratio:1/1;
+  border-radius:50%;
+  background:radial-gradient(circle at 50% 50%, #f3f0ea 0 11%, #5a3e85 11% 14%, #1a1420 14% 46%, #241b2c 46% 48%, #1a1420 48% 100%);
+  box-shadow:0 6px 18px rgba(19,32,41,.3);
+  transition:transform .55s cubic-bezier(.2,.75,.3,1);
+  z-index:1;
+}
+.hb-disc::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:50%;
+  background:repeating-radial-gradient(circle at 50% 50%,rgba(255,255,255,.05) 0 2px,transparent 2px 5px);
+}
+.hb-sleeve{
+  position:relative;
+  display:block;
+  width:88%;
+  aspect-ratio:1/1;
+  background:#d9d4cc;
+  border-radius:3px;
+  overflow:hidden;
+  box-shadow:0 4px 14px rgba(19,32,41,.28);
+  z-index:2;
+}
+.hb-sleeve img{width:100%;height:100%;object-fit:cover;display:block;}
+.hb-sleeve.is-empty img{display:none;}
+.hb-sleeve.is-empty::after{
+  content:"cover";
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:.8rem;
+  color:#6d6459;
+  letter-spacing:.08em;
+}
+.hb-player.is-playing .hb-disc{
+  transform:translateX(38%);
+  animation:hb-spin 3.2s linear infinite;
+}
+@keyframes hb-spin{to{transform:translateX(38%) rotate(360deg);}}
+.hb-caption{
+  display:block;
+  margin-top:.7rem;
+  font-size:.82rem;
+  color:#5b6a73;
+  line-height:1.4;
+}
+.hb-caption b{display:block;color:var(--ink);font-weight:700;font-size:.9rem;}
+.hb-prose{margin:0;font-size:1.02rem;line-height:1.75;max-width:60ch;}
+.hb-prose b{color:var(--accent);font-weight:700;}
 
 /* ---------- tokyo ---------- */
 .hb-skyline{
@@ -148,36 +212,22 @@ author_profile: true
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
   gap:1rem;
-  margin-bottom:1.2rem;
+  align-items:start;
+  margin-bottom:.4rem;
 }
 .hb-polaroid{background:#fff;padding:.6rem .6rem 0;border-radius:6px;}
-.hb-polaroid .hb-shot{aspect-ratio:1/1;background:linear-gradient(160deg,#e3c6d3,#a3849b);}
+.hb-polaroid .hb-shot{aspect-ratio:auto;background:none;}
+.hb-polaroid .hb-shot img{height:auto;object-fit:contain;}
+.hb-polaroid .hb-shot svg{position:static;height:150px;}
 .hb-polaroid figcaption{
   font-size:.8rem;color:#5b6a73;
   padding:.55rem .1rem .7rem;
 }
-.hb-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0;padding:0;list-style:none;}
-.hb-chips li{
-  background:#fff;border-radius:999px;
-  padding:.35rem .85rem;font-size:.85rem;
-  border:1px solid var(--line);
-}
 
-.hb-polaroid .hb-shot{
-  aspect-ratio:auto;
-  background:none;
-}
-.hb-polaroid .hb-shot img{
-  height:auto;
-  object-fit:contain;
-}
-.hb-polaroid .hb-shot svg{position:static;height:150px;}
-.hb-polaroids{align-items:start;}
-  
 @media (max-width:600px){
   .hb-hero h2{font-size:1.7rem;}
-  .hb-music{grid-template-columns:1fr;justify-items:center;} 
-  .hb-player{width:200px;} 
+  .hb-music{grid-template-columns:1fr;justify-items:center;}
+  .hb-player{width:200px;}
   .hb-prose{font-size:.98rem;}
 }
 @media (prefers-reduced-motion:reduce){
@@ -189,7 +239,7 @@ author_profile: true
 
   <div class="hb-hero">
     <h2>Beyond Academia</h2>
-    <p>Now that I am closer to 30 rather than 20, which, as far as I can tell, is the ideal age to start two new careers at once.</p>
+    <p>I am now closer to 30 than to 20, which, as far as I can tell, is the ideal age to start two new sporting careers at once.</p>
     <div class="hb-tabs" role="tablist" aria-label="Things I do outside research">
       <button class="hb-tab" id="hb-tab-sport" role="tab" aria-controls="hb-panel-sport" aria-selected="true" style="--tab-color:#0e7c7b">🏄 Board &amp; rackets</button>
       <button class="hb-tab" id="hb-tab-music" role="tab" aria-controls="hb-panel-music" aria-selected="false" tabindex="-1" style="--tab-color:#5a3e85">🎧 On repeat</button>
@@ -199,7 +249,7 @@ author_profile: true
 
   <!-- ============ SPORT ============ -->
   <div class="hb-panel" id="hb-panel-sport" role="tabpanel" aria-labelledby="hb-tab-sport" style="--accent:var(--sea)">
-    <p class="hb-lead">Now that I'm closer to 30 than to 20, I've reinvented myself as an <b>occasional, low-level surfer</b> and a padel player with a decent smash and a certain elegance at the net.</p>
+    <p class="hb-lead">I have reinvented myself as an <b>occasional, low-level surfer</b> and a padel player with a decent smash and a certain elegance at the net.</p>
 
     <div class="hb-cards">
 
@@ -233,7 +283,7 @@ author_profile: true
         </div>
         <div class="hb-card-body">
           <h3>Padel</h3>
-          <p>A decent smash, and an elegant way of moving at the net that I stole from tennis. Still understanding how to use the walls. </p>
+          <p>A decent smash, and an elegant way of moving at the net that I stole from tennis. Still working out how to use the walls.</p>
           <div class="hb-meter"><span>Smash</span><div class="hb-bar"><i data-fill="82"></i></div></div>
           <div class="hb-meter"><span>Elegance at the net</span><div class="hb-bar"><i data-fill="88"></i></div></div>
         </div>
@@ -272,8 +322,7 @@ author_profile: true
         </button>
         <span class="hb-caption" id="hb-caption"><b>Take Care</b>Tap the sleeve</span>
       </div>
-      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis on every drive we ever took — that car had one soundtrack and no one complained. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake, and I've stopped pretending that answer is going to change.</p>
-    </div>
+      <p class="hb-prose">I grew up on Aerosmith and the Red Hot Chili Peppers, played loud with my dad in his old Toyota Avensis on every drive we ever took — that car had one soundtrack and no one complained. Somewhere around high school rock quietly gave way to <b>RnB and Hip Hop</b>, and it never really moved back. My favourite album is probably <em>Take Care</em> by Drake, and I have stopped pretending that answer is going to change.</p>
     </div>
   </div>
 
@@ -304,32 +353,29 @@ author_profile: true
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#e8d3dc"/><circle cx="75" cy="70" r="30" fill="#d93b70" opacity=".55"/></svg>
-          <img src="{{ base_path }}/images/hobbies/tokyo-1.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-1.jpeg" alt="Shibuya crossing at night" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
-        <figcaption>Me in Shibuya, the first day I arrived in Tokyo. </figcaption>
+        <figcaption>Me in Shibuya, the first day I arrived in Tokyo.</figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#d6dde8"/><rect x="30" y="60" width="90" height="60" fill="#5a3e85" opacity=".45"/></svg>
-          <img src="{{ base_path }}/images/hobbies/tokyo-2.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-2.jpeg" alt="A bowl of ramen" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
-        <figcaption>One of the many (!) dinner ramen</figcaption>
+        <figcaption>One of the many (!) ramen dinners.</figcaption>
       </figure>
       <figure class="hb-polaroid">
         <div class="hb-shot">
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#dfe8e0"/><path d="M0 110c40-30 70 10 150-20v60H0z" fill="#0e7c7b" opacity=".5"/></svg>
-          <img src="{{ base_path }}/images/hobbies/tokyo-3.jpeg" alt="Tokyo" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
+          <img src="{{ base_path }}/images/hobbies/tokyo-3.jpeg" alt="A temple" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
-        <figcaption>Fushimi Inari-taisha</figcaption>
+        <figcaption>Fushimi Inari-taisha.</figcaption>
       </figure>
     </div>
-
 
   </div>
 
 </div>
-
-
 
 <script>
 (function(){
@@ -372,32 +418,59 @@ author_profile: true
 
   select(tabs[0]);
 
-  var player = document.getElementById('hb-player'); var turntable = player.querySelector('.hb-turntable'); var caption = document.getElementById('hb-caption'); var audioCtx, crackleNode, gainNode;
-function startCrackle(){ var Ctx = window.AudioContext || window.webkitAudioContext; if(!Ctx) return; if(!audioCtx) audioCtx = new Ctx(); if(audioCtx.state === 'suspended') audioCtx.resume();
-var seconds = 2;
-var buffer = audioCtx.createBuffer(1, audioCtx.sampleRate * seconds, audioCtx.sampleRate);
-var data = buffer.getChannelData(0);
-for(var i = 0; i < data.length; i++){
-  var hiss = (Math.random() * 2 - 1) * 0.035;
-  var pop = Math.random() < 0.0004 ? (Math.random() * 2 - 1) * 0.7 : 0;
-  data[i] = hiss + pop;
-}
+  /* ---------- record player ---------- */
+  var player = document.getElementById('hb-player');
+  if(!player) return;
+  var turntable = player.querySelector('.hb-turntable');
+  var caption = document.getElementById('hb-caption');
+  var audioCtx, crackleNode, gainNode;
 
-crackleNode = audioCtx.createBufferSource();
-crackleNode.buffer = buffer;
-crackleNode.loop = true;
+  function startCrackle(){
+    var Ctx = window.AudioContext || window.webkitAudioContext;
+    if(!Ctx) return;
+    if(!audioCtx) audioCtx = new Ctx();
+    if(audioCtx.state === 'suspended') audioCtx.resume();
 
-var filter = audioCtx.createBiquadFilter();
-filter.type = 'lowpass';
-filter.frequency.value = 3200;
+    var seconds = 2;
+    var buffer = audioCtx.createBuffer(1, audioCtx.sampleRate * seconds, audioCtx.sampleRate);
+    var data = buffer.getChannelData(0);
+    for(var i = 0; i < data.length; i++){
+      var hiss = (Math.random() * 2 - 1) * 0.035;
+      var pop = Math.random() < 0.0004 ? (Math.random() * 2 - 1) * 0.7 : 0;
+      data[i] = hiss + pop;
+    }
 
-gainNode = audioCtx.createGain();
-gainNode.gain.setValueAtTime(0, audioCtx.currentTime);
-gainNode.gain.linearRampToValueAtTime(0.6, audioCtx.currentTime + 0.35);
+    crackleNode = audioCtx.createBufferSource();
+    crackleNode.buffer = buffer;
+    crackleNode.loop = true;
 
-crackleNode.connect(filter).connect(gainNode).connect(audioCtx.destination);
-crackleNode.start();
-function stopCrackle(){ if(!crackleNode || !audioCtx) return; var node = crackleNode; gainNode.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.25); setTimeout(function(){ try{ node.stop(); }catch(e){} }, 300); crackleNode = null; }
-turntable.addEventListener('click', function(){ var playing = player.classList.toggle('is-playing'); turntable.setAttribute('aria-pressed', playing ? 'true' : 'false'); caption.innerHTML = playing ? '<b>Take Care</b>Side A, spinning' : '<b>Take Care</b>Tap the sleeve'; if(playing){ startCrackle(); } else { stopCrackle(); } });
+    var filter = audioCtx.createBiquadFilter();
+    filter.type = 'lowpass';
+    filter.frequency.value = 3200;
+
+    gainNode = audioCtx.createGain();
+    gainNode.gain.setValueAtTime(0, audioCtx.currentTime);
+    gainNode.gain.linearRampToValueAtTime(0.6, audioCtx.currentTime + 0.35);
+
+    crackleNode.connect(filter).connect(gainNode).connect(audioCtx.destination);
+    crackleNode.start();
+  }
+
+  function stopCrackle(){
+    if(!crackleNode || !audioCtx) return;
+    var node = crackleNode;
+    gainNode.gain.linearRampToValueAtTime(0, audioCtx.currentTime + 0.25);
+    setTimeout(function(){ try{ node.stop(); }catch(e){} }, 300);
+    crackleNode = null;
+  }
+
+  turntable.addEventListener('click', function(){
+    var playing = player.classList.toggle('is-playing');
+    turntable.setAttribute('aria-pressed', playing ? 'true' : 'false');
+    caption.innerHTML = playing
+      ? '<b>Take Care</b>Side A, spinning'
+      : '<b>Take Care</b>Tap the sleeve';
+    if(playing){ startCrackle(); } else { stopCrackle(); }
+  });
 })();
 </script>
