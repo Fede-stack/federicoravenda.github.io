@@ -6,27 +6,8 @@
 
 main:
 
-  #- title: "Talks"
-   # url: /talks/    
-
- # - title: "Teaching"
-  #  url: /teaching/    
-
-  #- title: "Publications"
-   # url: /publications/
-   #url: https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=ravenda+federico&btnG=
-    
- # - title: "Portfolio"
-  #  url: /portfolio/
-        
- # - title: "Blog Posts"
-  #  url: /year-archive/
-    
   - title: "CV"
     url: /files/Resume.pdf
 
   - title: "Beyond Research"
-       url: /hobbies/
-    
-  #- title: "Guide"
-   # url: /markdown/
+    url: /hobbies/
