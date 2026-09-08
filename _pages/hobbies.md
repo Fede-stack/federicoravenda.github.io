@@ -369,7 +369,7 @@ author_profile: true
           <svg viewBox="0 0 150 150" aria-hidden="true"><rect width="150" height="150" fill="#dfe8e0"/><path d="M0 110c40-30 70 10 150-20v60H0z" fill="#0e7c7b" opacity=".5"/></svg>
           <img src="{{ base_path }}/images/hobbies/tokyo-3.jpeg" alt="A temple" loading="lazy" onerror="this.parentNode.classList.add('is-empty')">
         </div>
-        <figcaption>Fushimi Inari-taisha.</figcaption>
+        <figcaption>Fushimi Inari-taisha, Kyoto.</figcaption>
       </figure>
     </div>
 
