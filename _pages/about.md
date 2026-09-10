@@ -8,6 +8,20 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+@media (pointer:fine){
+  body, body *{
+    cursor:url('{{ site.url }}/images/cursors/python_logo.png') 4 4, auto;
+  }
+  a, button, input[type="submit"], .btn{
+    cursor:url('{{ site.url }}/images/cursors/python_logo.png') 4 4, pointer;
+  }
+  input[type="text"], input[type="search"], textarea{
+    cursor:text;
+  }
+}
+</style>
+
 I am a PhD candidate in Computer Science at Università della Svizzera italiana (USI) in Lugano, Switzerland, specializing in Natural Language Processing for Digital Health. I hold a Master's degree in Statistics from Università Milano-Bicocca, with expertise in probabilistic modeling and machine learning.
 
 
