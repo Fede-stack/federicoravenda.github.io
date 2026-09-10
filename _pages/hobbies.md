@@ -4,6 +4,19 @@ title: "Beyond Research"
 permalink: /hobbies/
 author_profile: true
 ---
+<style>
+@media (pointer:fine){
+  body, body *{
+    cursor:url('{{ site.url }}/images/cursors/python_logo.png') 4 4, auto;
+  }
+  a, button, input[type="submit"], .btn{
+    cursor:url('{{ site.url }}/images/cursors/python_logo.png') 4 4, pointer;
+  }
+  input[type="text"], input[type="search"], textarea{
+    cursor:text;
+  }
+}
+</style>
 
 {% include base_path %}
 
